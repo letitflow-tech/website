@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nettoyage IA des scans intra-oraux | Let It Flow Dental Tech</title>
+  <meta name="description" content="Logiciel d'IA pour laboratoires et cabinets dentaires : nettoyage automatique des empreintes intra-orales, limite cervicale mise en évidence et modèles prêts pour la CFAO."/>
+  <meta name="google-site-verification" content="CzwpCwsbh7wogP7uOvolc6QiKjwbcUoYO6BVSsqaey4"/>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/icon-192.png"/>
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png"/>
+  <link rel="canonical" href="https://letitflow.tech/fr/"/>
+  <link rel="alternate" hreflang="en" href="https://letitflow.tech/"/>
+  <link rel="alternate" hreflang="fr" href="https://letitflow.tech/fr/"/>
+  <link rel="alternate" hreflang="de" href="https://letitflow.tech/de/"/>
+  <link rel="alternate" hreflang="es" href="https://letitflow.tech/es/"/>
+  <link rel="alternate" hreflang="it" href="https://letitflow.tech/it/"/>
+  <link rel="alternate" hreflang="x-default" href="https://letitflow.tech/"/>
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Let It Flow Dental Tech"/>
+  <meta property="og:title" content="Nettoyage IA des scans intra-oraux | Let It Flow Dental Tech"/>
+  <meta property="og:description" content="Des empreintes intra-orales brutes aux modèles propres, prêts pour la conception. Prétraitement par IA pour laboratoires et cabinets dentaires."/>
+  <meta property="og:image" content="https://letitflow.tech/assets/og-image.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:url" content="https://letitflow.tech/fr/"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:locale:alternate" content="en_GB"/>
+  <meta property="og:locale:alternate" content="de_DE"/>
+  <meta property="og:locale:alternate" content="es_ES"/>
+  <meta property="og:locale:alternate" content="it_IT"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin/>
+  <link rel="stylesheet" href="../css/styles.css"/>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Let It Flow Dental Tech",
+    "legalName": "Let It Flow Dental Tech SAS",
+    "alternateName": "Let It Flow",
+    "url": "https://letitflow.tech/",
+    "logo": "https://letitflow.tech/assets/logo-512.png",
+    "image": "https://letitflow.tech/assets/og-image.jpg",
+    "description": "AI software that prepares and analyses digital dental impressions for dental labs and clinics.",
+    "foundingDate": "2026-07-01",
+    "email": "contact@letitflow.tech",
+    "taxID": "107 342 354 00019",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Rue Victor Hugo",
+      "postalCode": "09100",
+      "addressLocality": "Pamiers",
+      "addressRegion": "Occitanie",
+      "addressCountry": "FR"
+    },
+    "sameAs": ["https://www.linkedin.com/company/letitflow-dental-technologies/"],
+    "founder": [
+      {"@type": "Person", "name": "Radu-Eremia Opran", "jobTitle": "President"},
+      {"@type": "Person", "name": "Tudor Opran", "jobTitle": "R&D Lead", "sameAs": ["https://www.linkedin.com/in/tudor-opran/"]}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Let It Flow Dental Tech",
+    "alternateName": ["Let It Flow", "LetItFlow"],
+    "url": "https://letitflow.tech/",
+    "inLanguage": ["en", "fr", "de", "es", "it"]
+  }
+  </script>
+  <!--FAQ-JSONLD-START--><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Que fait Let It Flow ?", "acceptedAnswer": {"@type": "Answer", "text": "Let It Flow nettoie automatiquement les empreintes dentaires numériques. Il supprime le bruit et les artefacts de tissus mous et fait ressortir la limite cervicale, pour fournir au prothésiste un modèle prêt pour la conception de la couronne."}}, {"@type": "Question", "name": "Avec quels scanners et logiciels fonctionne-t-il ?", "acceptedAnswer": {"@type": "Answer", "text": "Nous nous connectons aux plateformes cloud de plusieurs grandes marques de scanners intra-oraux. Le modèle nettoyé s'ouvre dans votre logiciel de CAO dentaire habituel."}}, {"@type": "Question", "name": "Mon scan original est-il modifié ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Le scan original est toujours conservé. Vous pouvez comparer le résultat avec lui et accepter ou refuser chaque correction."}}, {"@type": "Question", "name": "À qui s'adresse-t-il ?", "acceptedAnswer": {"@type": "Answer", "text": "D'abord aux laboratoires de prothèse, et aux chirurgiens-dentistes qui conçoivent leurs prothèses au cabinet. L'analyse orthodontique est dans notre feuille de route."}}, {"@type": "Question", "name": "Quand sera-t-il disponible, et combien coûte-t-il ?", "acceptedAnswer": {"@type": "Answer", "text": "La bêta ouvre le 15 juin 2027. Chaque produit sera proposé en abonnement mensuel ou annuel, avec un essai gratuit de 14 jours sur vos propres scans. Réservez une démo pour faire partie des premiers testeurs."}}]}</script><!--FAQ-JSONLD-END-->
+
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────── -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="./" class="logo" aria-label="Let It Flow Dental Tech — accueil">
+      <svg class="lif-logo" viewBox="0 0 252 60" aria-hidden="true" focusable="false">
+        <g class="lif-mark">
+          <path class="lif-wave lif-wave-1" fill="#5fc7fe" d="M5 18 C 16 10 25 10 34 16 C 44 23 55 24 67 15 L67 20 C 55 29 44 28 34 21 C 25 15 16 15 5 23 Z"/>
+          <path class="lif-wave lif-wave-2" fill="#1f8ae6" d="M5 30 C 16 22 25 22 34 28 C 44 35 55 36 67 27 L67 32 C 55 41 44 40 34 33 C 25 27 16 27 5 35 Z"/>
+          <path class="lif-wave lif-wave-3" fill="#0a327d" d="M5 42 C 16 34 25 34 34 40 C 44 47 55 48 67 39 L67 44 C 55 53 44 52 34 45 C 25 39 16 39 5 47 Z"/>
+        </g>
+        <text class="lif-name" x="84" y="35">Let It Flow</text>
+        <text class="lif-sub" x="85" y="49">DENTAL TECH</text>
+      </svg>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#demo" data-i18n="nav-demo">Avant / Après</a>
+      <a href="#how-it-works" data-i18n="nav-how">Comment ça marche</a>
+      <a href="#faq" data-i18n="nav-faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-dropdown" id="lang-dropdown">
+        <button class="lang-selected" id="lang-selected" aria-haspopup="listbox" aria-expanded="false" aria-label="Change language">
+          <img src="../assets/flag-fr.svg" alt="Français" class="lang-flag-img" width="30" height="20"/>
+        </button>
+        <ul class="lang-list" id="lang-list" role="listbox" aria-label="Language">
+          <li><a class="lang-btn" href="../" hreflang="en" lang="en" data-lang="en" role="option" aria-selected="false"><img src="../assets/flag-gb.svg" alt="" class="lang-flag-img" width="30" height="20"/><span class="lang-code" aria-label="English">EN</span></a></li>
+          <li><a class="lang-btn active" href="./" hreflang="fr" lang="fr" data-lang="fr" role="option" aria-selected="true"><img src="../assets/flag-fr.svg" alt="" class="lang-flag-img" width="30" height="20"/><span class="lang-code" aria-label="Français">FR</span></a></li>
+          <li><a class="lang-btn" href="../de/" hreflang="de" lang="de" data-lang="de" role="option" aria-selected="false"><img src="../assets/flag-de.svg" alt="" class="lang-flag-img" width="30" height="20"/><span class="lang-code" aria-label="Deutsch">DE</span></a></li>
+          <li><a class="lang-btn" href="../es/" hreflang="es" lang="es" data-lang="es" role="option" aria-selected="false"><img src="../assets/flag-es.svg" alt="" class="lang-flag-img" width="30" height="20"/><span class="lang-code" aria-label="Español">ES</span></a></li>
+          <li><a class="lang-btn" href="../it/" hreflang="it" lang="it" data-lang="it" role="option" aria-selected="false"><img src="../assets/flag-it.svg" alt="" class="lang-flag-img" width="30" height="20"/><span class="lang-code" aria-label="Italiano">IT</span></a></li>
+        </ul>
+      </div>
+      <a class="btn btn-primary btn-nav" href="#rdv"><span class="cta-long" data-i18n="nav-cta-text">Réserver une démo</span><span class="cta-short" data-i18n="nav-cta-short">Démo</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+
+  <!-- ── HERO ──────────────────────────────────────── -->
+  <section class="hero" aria-label="Introduction">
+    <canvas id="flow-canvas" aria-hidden="true"></canvas>
+    <div class="hero-veil" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title" data-i18n="hero-title">Des scans dentaires bruts aux modèles propres, prêts pour la conception</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="hero-sub" data-i18n="hero-sub">Prétraitement IA des empreintes intra-orales pour laboratoires et cabinets dentaires.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="#rdv" data-i18n="hero-cta">Réserver une démo</a>
+        <a class="btn btn-ghost btn-lg" href="#demo" data-i18n="hero-cta2">Voir les résultats</a>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#demo" aria-label="Scroll to the before / after comparison">
+      <span class="scroll-cue-dot" aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <div class="flow-sep" aria-hidden="true"></div>
+
+  <!-- ── BEFORE / AFTER ────────────────────────────── -->
+  <section class="section slider-section" id="demo" aria-labelledby="slider-title">
+    <div class="deco deco-a" data-parallax="0.06" aria-hidden="true"></div>
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="slider-label">Avant / Après</p>
+      <h2 class="section-title" id="slider-title" data-i18n="slider-title">Faites glisser pour comparer</h2>
+    </div>
+
+    <div class="compare-frame reveal tilt" style="--d:.1s">
+      <div class="compare-wrap" id="compare" role="slider" aria-label="Before and after comparison slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+        <picture>
+          <source srcset="../assets/scan-processed.webp" type="image/webp"/>
+          <img class="img-after" src="../assets/scan-processed.jpg" alt="Processed dental scan — clean model with the cervical junction revealed" width="1400" height="693" loading="lazy" decoding="async"/>
+        </picture>
+        <div class="img-before-wrap" id="before-wrap">
+          <picture>
+            <source srcset="../assets/scan-raw.webp" type="image/webp"/>
+            <img src="../assets/scan-raw.jpg" alt="Raw dental scan with noise and soft-tissue artefacts" width="1161" height="550" loading="lazy" decoding="async"/>
+          </picture>
+        </div>
+        <div class="compare-divider" id="divider" aria-hidden="true"></div>
+        <div class="compare-handle" id="handle" aria-hidden="true"></div>
+        <span class="compare-badge badge-before" data-i18n="badge-before">Scan brut</span>
+        <span class="compare-badge badge-after" data-i18n="badge-after">Traité</span>
+      </div>
+    </div>
+
+    <p class="gains-intro reveal" data-i18n="gains-intro">Ce qui change entre les deux scans</p>
+    <ul class="gains">
+      <li class="gain glass reveal" style="--d:.05s">
+        <span class="gain-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/><path d="M10 11v6M14 11v6"/></svg></span>
+        <h3 data-i18n="gain1-title">Tissus mous supprimés</h3>
+        <p data-i18n="gain1-text">Les excès de joue, de langue et de gencive capturés autour de l'arcade sont retirés.</p>
+      </li>
+      <li class="gain glass reveal" style="--d:.12s">
+        <span class="gain-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15c3-4 6-6 9-6s6 2 9 6"/><circle cx="12" cy="9" r="1.6"/><path d="M3 19h18"/></svg></span>
+        <h3 data-i18n="gain2-title">Limite cervicale révélée</h3>
+        <p data-i18n="gain2-text">La limite de chaque préparation ressort, prête à être tracée dans votre CAO.</p>
+      </li>
+      <li class="gain glass reveal" style="--d:.19s">
+        <span class="gain-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20V9c0-3 2.7-5 6-5s6 2 6 5v11"/><path d="M4 20h16"/><path d="M8.5 14c1.2-1 2.3-1 3.5 0s2.3 1 3.5 0" /><path d="M8.5 17c1.2-1 2.3-1 3.5 0s2.3 1 3.5 0"/></svg></span>
+        <h3 data-i18n="gain3-title">Contre-dépouilles comblées</h3>
+        <p data-i18n="gain3-text">Les contre-dépouilles autour de chaque préparation sont comblées : le modèle est prêt pour la conception.</p>
+      </li>
+      <li class="gain glass reveal" style="--d:.26s">
+        <span class="gain-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/></svg></span>
+        <h3 data-i18n="gain4-title">Original conservé</h3>
+        <p data-i18n="gain4-text">Comparez avec le scan brut et acceptez ou refusez chaque modification.</p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="flow-sep flow-sep--flip" aria-hidden="true"></div>
+
+  <!-- ── HOW IT WORKS ──────────────────────────────── -->
+  <section class="section hiw-section" id="how-it-works" aria-labelledby="hiw-title">
+    <div class="deco deco-b" data-parallax="-0.05" aria-hidden="true"></div>
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="hiw-label">Comment ça marche</p>
+      <h2 class="section-title" id="hiw-title" data-i18n="hiw-title">Automatisé, de l'envoi à la livraison</h2>
+      <p class="section-sub" data-i18n="hiw-subtitle">Votre scan est acheminé vers nos serveurs de traitement dès son dépôt, sans manipulation manuelle de notre part.</p>
+    </div>
+
+    <ol class="hiw-steps">
+      <li class="hiw-step glass reveal" style="--d:.05s">
+        <div class="hiw-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 12.5H11L10 22l8.5-10.5H12L13 2z"/></svg>
+          <span class="hiw-step-num">1</span>
+        </div>
+        <h3 data-i18n="fhiw-s1-title">Routage automatique</h3>
+        <p data-i18n="fhiw-s1-desc">Le fichier passe directement de la plateforme de votre scanner à nos serveurs de traitement.</p>
+      </li>
+      <li class="hiw-step glass reveal" style="--d:.15s">
+        <div class="hiw-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2.5"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/><circle cx="12" cy="12" r="2.2"/></svg>
+          <span class="hiw-step-num">2</span>
+        </div>
+        <h3 data-i18n="fhiw-s2-title">Traitement IA</h3>
+        <p data-i18n="fhiw-s2-desc">Nos modèles suppriment les artefacts et les tissus mous et font ressortir la limite cervicale.</p>
+      </li>
+      <li class="hiw-step glass reveal" style="--d:.25s">
+        <div class="hiw-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+          <span class="hiw-step-num">3</span>
+        </div>
+        <h3 data-i18n="fhiw-s3-title">Retour dans votre flux</h3>
+        <p data-i18n="fhiw-s3-desc">Le modèle nettoyé revient à votre laboratoire à côté de l'original, prêt pour votre logiciel de CAO.</p>
+      </li>
+    </ol>
+
+    <p class="hiw-badge reveal" style="--d:.3s" data-i18n="hiw-badge">Traitement automatisé, vous gardez le dernier mot</p>
+  </section>
+
+  <!-- ── TEAM ──────────────────────────────────────── -->
+  <section class="section team-section" id="team" aria-labelledby="team-title">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="team-label">Qui sommes-nous</p>
+      <h2 class="section-title" id="team-title" data-i18n="team-title">Conçu par un chirurgien-dentiste et un ingénieur en IA</h2>
+      <p class="section-sub" data-i18n="team-sub">L'expérience clinique en dentisterie guide ce que nous automatisons ; notre recherche en vision par ordinateur 3D et en apprentissage profond géométrique le rend possible.</p>
+    </div>
+    <ul class="team-grid">
+      <li class="team-card glass reveal" style="--d:.05s">
+        <span class="team-initials" aria-hidden="true">RO</span>
+        <h3>Radu Opran</h3>
+        <p data-i18n="team-radu">Chirurgien-dentiste depuis 1994 · Président</p>
+      </li>
+      <li class="team-card glass reveal" style="--d:.12s">
+        <picture>
+          <source srcset="../assets/team/tudor-opran.webp" type="image/webp"/>
+          <img class="team-photo" src="../assets/team/tudor-opran.jpg" alt="Tudor Opran" width="88" height="88" loading="lazy" decoding="async"/>
+        </picture>
+        <h3>Tudor Opran</h3>
+        <p data-i18n="team-tudor">Ingénieur en vision par ordinateur 3D · Responsable R&amp;D</p>
+        <a class="team-linkedin" href="https://www.linkedin.com/in/tudor-opran/" target="_blank" rel="noopener" aria-label="Tudor Opran sur LinkedIn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ── PARTNERS ──────────────────────────────────── -->
+  <section class="section partners-section" id="partners" aria-labelledby="partners-title">
+    <h2 class="eyebrow partners-label reveal" id="partners-title" data-i18n="partners-label">Avec le soutien de</h2>
+    <ul class="partners-grid reveal" style="--d:.08s">
+      <li><a href="https://www.laregion.fr" target="_blank" rel="noopener" class="partner-chip glass"><img src="../assets/logo-occitanie.jpg" alt="Région Occitanie" class="partner-logo" loading="lazy"/></a></li>
+      <li><a href="https://www.aktantis.com/" target="_blank" rel="noopener" class="partner-chip glass"><img src="../assets/aktantislogox.png" alt="Aktantis" class="partner-logo" loading="lazy"/></a></li>
+      <li><a href="https://www.bpifrance.fr" target="_blank" rel="noopener" class="partner-chip glass"><img src="../assets/bpifrance5870.jpg" alt="Bpifrance" class="partner-logo" loading="lazy"/></a></li>
+      <li><a href="https://www.cnrs.fr/fr" target="_blank" rel="noopener" class="partner-chip glass"><img src="../assets/LOGO_CNRS_BLANC.png" alt="CNRS — IDRIS Jean Zay" class="partner-logo" loading="lazy"/></a></li>
+      <li><a href="https://lafrenchtech.gouv.fr/" target="_blank" rel="noopener" class="partner-chip glass"><img src="../assets/idy0qUczeT_1776967014490.jpg" alt="La French Tech" class="partner-logo" loading="lazy"/></a></li>
+      <li><a href="https://crystaldentalclinic.ro/" target="_blank" rel="noopener" class="partner-chip glass"><img src="../assets/crystaldentalclinic.jpg" alt="Crystal Dental Clinic" class="partner-logo" loading="lazy"/></a></li>
+    </ul>
+    <p class="partners-note" data-i18n="partners-note"></p>
+  </section>
+
+  <!-- ── FAQ ───────────────────────────────────────── -->
+  <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="faq-label">FAQ</p>
+      <h2 class="section-title" id="faq-title" data-i18n="faq-title">Les questions des laboratoires et des dentistes</h2>
+    </div>
+    <div class="faq-list reveal" style="--d:.06s">
+      <details class="faq-item glass">
+        <summary data-i18n="faq-q1">Que fait Let It Flow ?</summary>
+        <p data-i18n="faq-a1">Let It Flow nettoie automatiquement les empreintes dentaires numériques. Il supprime le bruit et les artefacts de tissus mous et fait ressortir la limite cervicale, pour fournir au prothésiste un modèle prêt pour la conception de la couronne.</p>
+      </details>
+      <details class="faq-item glass">
+        <summary data-i18n="faq-q2">Avec quels scanners et logiciels fonctionne-t-il ?</summary>
+        <p data-i18n="faq-a2">Nous nous connectons aux plateformes cloud de plusieurs grandes marques de scanners intra-oraux. Le modèle nettoyé s'ouvre dans votre logiciel de CAO dentaire habituel.</p>
+      </details>
+      <details class="faq-item glass">
+        <summary data-i18n="faq-q3">Mon scan original est-il modifié ?</summary>
+        <p data-i18n="faq-a3">Non. Le scan original est toujours conservé. Vous pouvez comparer le résultat avec lui et accepter ou refuser chaque correction.</p>
+      </details>
+      <details class="faq-item glass">
+        <summary data-i18n="faq-q4">À qui s'adresse-t-il ?</summary>
+        <p data-i18n="faq-a4">D'abord aux laboratoires de prothèse, et aux chirurgiens-dentistes qui conçoivent leurs prothèses au cabinet. L'analyse orthodontique est dans notre feuille de route.</p>
+      </details>
+      <details class="faq-item glass">
+        <summary data-i18n="faq-q5">Quand sera-t-il disponible, et combien coûte-t-il ?</summary>
+        <p data-i18n="faq-a5">La bêta ouvre le 15 juin 2027. Chaque produit sera proposé en abonnement mensuel ou annuel, avec un essai gratuit de 14 jours sur vos propres scans. Réservez une démo pour faire partie des premiers testeurs.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="flow-sep" aria-hidden="true"></div>
+
+  <!-- ── BOOKING ───────────────────────────────────── -->
+  <section class="section booking-section" id="rdv" aria-labelledby="booking-title">
+    <div class="deco deco-c" data-parallax="0.05" aria-hidden="true"></div>
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="booking-label">Rendez-vous</p>
+    </div>
+
+    <!-- Countdown -->
+    <div class="countdown-wrap reveal" id="countdown-wrap" style="--d:.06s">
+      <p class="countdown-label" data-i18n="cd-label">Disponible dans</p>
+      <div class="countdown-blocks" role="timer" aria-label="Time until beta launch">
+        <div class="cd-block">
+          <div class="cd-num glass" id="cd-days">--</div>
+          <div class="cd-unit" data-i18n="cd-unit-days">Jours</div>
+        </div>
+        <div class="cd-sep" aria-hidden="true">:</div>
+        <div class="cd-block">
+          <div class="cd-num glass" id="cd-hours">--</div>
+          <div class="cd-unit" data-i18n="cd-unit-hours">Heures</div>
+        </div>
+        <div class="cd-sep" aria-hidden="true">:</div>
+        <div class="cd-block">
+          <div class="cd-num glass" id="cd-mins">--</div>
+          <div class="cd-unit" data-i18n="cd-unit-mins">Min</div>
+        </div>
+      </div>
+      <p class="countdown-tagline" data-i18n-html="cd-tagline">Lancement bêta — <strong>15 juin 2027</strong></p>
+    </div>
+
+    <!-- Booking widget -->
+    <div class="booking-widget glass reveal" style="--d:.12s">
+      <div class="booking-head">
+        <h2 id="booking-title" data-i18n="booking-title">Réserver une démo</h2>
+        <span class="booking-confirm-badge" data-i18n="booking-confirm">✓ Confirmation par e-mail</span>
+      </div>
+      <div class="booking-body">
+        <!-- Calendar -->
+        <div class="booking-cal">
+          <div class="cal-nav">
+            <button class="cal-arrow" id="cal-prev" aria-label="Previous month">&#8249;</button>
+            <div class="cal-month" id="cal-month-label" aria-live="polite"></div>
+            <button class="cal-arrow" id="cal-next" aria-label="Next month">&#8250;</button>
+          </div>
+          <div class="cal-grid" id="cal-grid"></div>
+        </div>
+        <!-- Time slots -->
+        <div class="booking-slots">
+          <div class="slots-title" id="slots-title" aria-live="polite">Select a date first</div>
+          <div class="slots-grid" id="slots-grid"></div>
+        </div>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <div class="bform-field">
+          <label for="bform-name" data-i18n="bform-lbl-name">Votre nom</label>
+          <input type="text" id="bform-name" name="name" placeholder="Dr. Martin Dupont" autocomplete="name"/>
+        </div>
+        <div class="bform-field">
+          <label for="bform-email" data-i18n="bform-lbl-email">E-mail</label>
+          <input type="email" id="bform-email" name="email" placeholder="contact@lab.fr" autocomplete="email"/>
+        </div>
+        <button type="submit" class="btn btn-primary bform-submit" id="bform-submit" disabled data-i18n="bform-submit">Réserver sur Calendly →</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── FOOTER ─────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-main">
+
+    <div class="footer-brand">
+      <a href="./" class="logo" aria-label="Let It Flow Dental Tech — accueil">
+        <svg class="lif-logo" viewBox="0 0 252 60" aria-hidden="true" focusable="false">
+          <g class="lif-mark">
+            <path class="lif-wave lif-wave-1" fill="#5fc7fe" d="M5 18 C 16 10 25 10 34 16 C 44 23 55 24 67 15 L67 20 C 55 29 44 28 34 21 C 25 15 16 15 5 23 Z"/>
+            <path class="lif-wave lif-wave-2" fill="#1f8ae6" d="M5 30 C 16 22 25 22 34 28 C 44 35 55 36 67 27 L67 32 C 55 41 44 40 34 33 C 25 27 16 27 5 35 Z"/>
+            <path class="lif-wave lif-wave-3" fill="#0a327d" d="M5 42 C 16 34 25 34 34 40 C 44 47 55 48 67 39 L67 44 C 55 53 44 52 34 45 C 25 39 16 39 5 47 Z"/>
+          </g>
+          <text class="lif-name" x="84" y="35">Let It Flow</text>
+          <text class="lif-sub" x="85" y="49">DENTAL TECH</text>
+        </svg>
+      </a>
+      <p data-i18n="footer-tagline">Prétraitement par IA des empreintes intra-orales pour laboratoires et cabinets dentaires.</p>
+      <p class="footer-fineprint">Let It Flow Dental Tech SAS<br/>Capital 30&nbsp;000&nbsp;€ · RCS Foix 107&nbsp;342&nbsp;354<br/>SIRET 107&nbsp;342&nbsp;354&nbsp;00019</p>
+    </div>
+
+    <nav class="footer-col" aria-labelledby="footer-col1-title">
+      <h3 id="footer-col1-title" data-i18n="footer-col1-title">Produit</h3>
+      <ul>
+        <li><a href="#how-it-works" data-i18n="footer-how">Comment ça marche</a></li>
+        <li><a href="#demo" data-i18n="footer-before-after">Avant / Après</a></li>
+        <li><a href="#rdv" data-i18n="footer-demo">Réserver une démo</a></li>
+        <li><a href="#faq" data-i18n="footer-faq">FAQ</a></li>
+        <li><a href="mailto:support@letitflow.tech" data-i18n="footer-api">Accès API</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col" aria-labelledby="footer-col2-title">
+      <h3 id="footer-col2-title" data-i18n="footer-col2-title">Contact</h3>
+      <ul>
+        <li>
+          <span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            <a href="https://www.linkedin.com/company/letitflow-dental-technologies/" target="_blank" rel="noopener">LinkedIn</a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            45 rue Victor Hugo<br/>09100 Pamiers, France
+          </span>
+        </li>
+        <li>
+          <span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:contact@letitflow.tech">contact@letitflow.tech</a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:support@letitflow.tech">support@letitflow.tech</a>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-map-col">
+      <h3 id="footer-col3-title" data-i18n="footer-col3-title">Nous trouver</h3>
+      <a class="footer-map" href="https://www.google.com/maps/search/?api=1&amp;query=45%20Rue%20Victor%20Hugo%2C%2009100%20Pamiers%2C%20France" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span><strong>45 Rue Victor Hugo</strong><br/>09100 Pamiers, France</span>
+        <span class="footer-map-cta" data-i18n="footer-map-cta">Ouvrir dans Google Maps →</span>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span data-i18n="footer-copy">© 2026 Let It Flow Dental Tech SAS. Tous droits réservés.</span>
+    <div class="footer-legal">
+      <a href="../confidentialite.html" data-i18n="footer-privacy">Politique de confidentialité</a>
+      <a href="../mentions-legales.html" data-i18n="footer-legal">Mentions légales</a>
+      <button type="button" class="footer-cookie-btn" id="cookie-settings" data-i18n="footer-cookies">Gérer les cookies</button>
+    </div>
+  </div>
+</footer>
+
+<!-- Cookie consent: ContentSquare analytics load only after the visitor accepts (see js/main.js) -->
+<div class="consent glass" id="consent" role="dialog" aria-labelledby="consent-title" hidden>
+  <p class="consent-title" id="consent-title" data-i18n="consent-title">Cookies de mesure d'audience</p>
+  <p class="consent-text"><span data-i18n="consent-text">Nous aimerions mesurer l'utilisation de ce site avec ContentSquare. Rien n'est chargé sans votre accord.</span> <a href="../confidentialite.html" data-i18n="consent-more">En savoir plus</a></p>
+  <div class="consent-actions">
+    <button type="button" class="btn btn-ghost consent-btn" id="consent-no" data-i18n="consent-no">Refuser</button>
+    <button type="button" class="btn btn-primary consent-btn" id="consent-yes" data-i18n="consent-yes">Accepter</button>
+  </div>
+</div>
+
+<script src="../js/main.js" defer></script>
+</body>
+</html>
